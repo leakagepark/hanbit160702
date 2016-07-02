@@ -25,7 +25,7 @@ public class CalendarActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
-       // btnhome2 = findViewById(R.id.btnhome2);
+        btnhome2 = (Button) findViewById(R.id.btnhome2);
         btnhome2.setOnClickListener(this);
 
     }
